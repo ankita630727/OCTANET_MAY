@@ -16,9 +16,74 @@ html,body{
     background-color: blue;
 }
 #top{
+    position: relative;
     width: 100%;
     height: 60%;
-    background-color: red;
-}
+    background-image: url(https://images.unsplash.com/photo-1714640816845-90e04e414f6f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
 
- 
+}
+.nav a{
+   color: coral;
+    font-size: 30px;
+    padding: 50px;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: white
+}
+#buttom{
+    width: 100%;
+    height: 40%;
+    background-color: yellow;
+    display: flex;
+}
+.buttom1{
+width: 25%;
+height: 100%;
+background-image: url(https://plus.unsplash.com/premium_photo-1714115034964-16b20994142a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-size: cover;
+background-position: center;
+}
+.buttom2{
+    width: 25%;
+    height: 100%;
+   background-image: url(https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-size: cover;
+   background-position: 25% 40%;
+    }
+    .buttom3{
+        width: 25%;
+        height: 100%;
+       background-image: url(https://images.unsplash.com/photo-1714306915861-cd11ba62181b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+       background-size: cover;
+       background-position: center;
+        }
+        .buttom4{
+            width: 25%;
+            height: 100%;
+           background-image: url(https://plus.unsplash.com/premium_photo-1680378871613-bfacb34787f8?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+           background-size: cover;
+           background-position: center;
+            }
+            .text{
+                color: white;
+                display: flex;
+                position: absolute;
+                width: 100%;
+                /* background-color: red; */
+               margin-top: 90px;
+               justify-content: space-between;
+            }
+            .text h1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 50px;
+                padding-left: 50px;
+            }
+            .leftpara{
+                padding-left: 50px;
+            }
+            .rightpara{
+                padding-right: 50px;
+            }
