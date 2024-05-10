@@ -1,0 +1,117 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+   font-family: cursive;
+}
+body{
+    background-attachment: fixed;
+   background-image: url(https://images.unsplash.com/photo-1533090161767-e6ffed986c88?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-position: 0%90%;
+   background-size: cover;
+  
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+   background: transparent;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.index ul{
+   margin-top: 10px;
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+    
+}
+a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+}
+.logo p{
+   font-size: 25px;
+   font-weight: 700;
+}
+a:hover{
+    color: rgb(10, 0, 0);
+    background-color: transparent;
+    border-bottom: 5px solid rgb(83, 68, 68);
+    border-radius: 15px;
+    padding-bottom: 5px;
+    
+}
+
+
+
+/**/
+.container {
+    filter: drop-shadow(8px 8px 10px rgb(59, 59, 41));
+    max-width: 700px;
+    width: 500px;
+    /* margin: 50px auto; */
+    margin-top: 80px;
+    float: left;
+    margin-left: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#addTaskContainer {
+    margin-bottom: 20px;
+}
+
+#addTaskContainer input[type="text"] {
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ccc;
+}
+
+#addTaskContainer button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+#addTaskContainer button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
